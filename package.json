@@ -1,0 +1,21 @@
+{
+  "name": "wibucore",
+  "version": "0.1.0",
+  "description": "Wibubots toolkit for AI Rich HTML, WebView, buttons and WhatsApp Channel Search.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./html": "./src/html.js",
+    "./buttons": "./src/buttons.js",
+    "./airich": "./src/airich.js",
+    "./webview": "./src/webview.js",
+    "./channel": "./src/channel.js"
+  },
+  "files": ["src","examples","README.md","LICENSE"],
+  "keywords": ["whatsapp","baileys","wibubots","airich","webview","channel-search"],
+  "license": "MIT",
+  "engines": {"node": ">=18"},
+  "peerDependencies": {"@kanaraa/baileys": ">=3.5.2"},
+  "peerDependenciesMeta": {"@kanaraa/baileys": {"optional": true}}
+}
