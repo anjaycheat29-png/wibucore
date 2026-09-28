@@ -1,2 +1,0 @@
-# wibucore
-Bot whatsapp
